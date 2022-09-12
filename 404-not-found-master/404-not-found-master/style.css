@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------Contenedor General-----------------*/
+h1{
+    font-family: 'Inconsolata', monospace;
+    color: #333;
+}
+h2,
+p,
+a{
+    font-family: 'Space Mono', monospace;
+    color: #333;
+}
+/*-------------Contenedor Principal-----------------*/
+
+#container{
+    padding: 20px 24px 24px;
+}
+.title{
+    font-size: 24px;
+}
+
+/*-------------Contenedor de Imagen-----------------*/
+
+#hero{
+    text-align: center;
+}
+#hero img{
+    width: 85%;
+}
+.main-container{
+    margin-top: 50px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    word-spacing: -13px;
+}
+.main-content p{
+    margin-top: 30px;
+    margin-bottom: 66px;
+}
+.main-content a{
+    padding: 24px 43px;
+    background-color: #333;
+    color: #FFF;
+    align-self: flex-start;
+    text-decoration: none;
+}
+@media (min-width: 1024px;){
+    #container{
+        padding: 1.4rem 4rem;
+        max-width: 1440px;
+        margin: auto;
+        min-height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-container{
+        display: flex;
+    }
+    #hero{
+        width: 50%;
+    }
+    #hero img{
+        width: 70%;
+    }
+    .main-content{
+        width: 50%;
+        justify-content: space-around;
+    }
+    .main-container h2{
+        font-size: 4rem;
+    }
+    .main-content p{
+        font-size: 1.5rem;
+        width: 60%;        
+    }
+}

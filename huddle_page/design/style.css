@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+.fondo{
+    background: url('../images/bg-mobile.svg');
+    background-color: hsl(257, 40%, 49%);
+    z-index: -22px;
+    position: absolute;
+}
+#logo{
+    z-index: 22px;
+}
+header>img{
+    width:45%;
+}
+section h2{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 1px;
+    padding: 24px;
+    margin-top: 20%;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 0px;
+    text-decoration: none;
+    color:  hsl(257, 40%, 49%);
+    bottom: 5px;
+}
+#container{
+    padding: 20px 35px 24px;
+}
+#hero{
+    text-align: center;
+}
+#hero img{
+    width: 85%;
+}
+.main-container{
+    margin-top: 50px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-content p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main>div.main-container{
+    text-align: center;
+}
+#container>div>section>a#boton{
+    width: 50%;
+    align-self: center;
+}
